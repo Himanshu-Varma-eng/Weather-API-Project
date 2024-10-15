@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="weather.js" defer></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+    <h1> Weather <span>App</span></h1>
+    <h2>Get the Weather details any city,<br> Right Now!</h2>
+    </div>
+  <div class="inbtn-container">
+    <input class="input-text" type="text" placeholder="Enter your city">
+    <button class="search-btn">Search</button>
+  </div>
+
+  <!-- outputCard -->
+  <div class="text-contain" id="texts-content">
+    <div class="cityCard">
+        <p class="city-name"></p>
+        <p class="countryName"></p>
+    </div>
+
+    <!--temperatur-->
+    <div class="temperature">
+        <p class="tem">
+          <sup id="sup"></sup>
+        </p>
+    </div>
+
+    <!--time & date-->
+    <p id="loc-time"></p>
+  </div>
+</div>
+</body>
+</html>

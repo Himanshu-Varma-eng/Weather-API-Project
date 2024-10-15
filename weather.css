@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inbtn-container{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 30%;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.input-text{
+    width: 50%;
+    height: 30%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #d5d4d4;
+    border-radius: 8px;
+    align-items: center;
+    border: none;
+}
+
+.search-btn{
+    width: 30%;
+    height:66% ;
+    text-align: center;
+    margin-top: 10px;
+    background: rgb(237, 86, 11);
+    color: white;
+    font-size: 14px;
+    font-weight: 500px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+.search-btn:hover{
+    background: rgb(182, 75, 21);
+}
+
+.title{
+    display: flex;
+    padding: 12px;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title span{
+    color: #2e8cea;
+}
+
+.title h2{
+    text-align: center;    
+    color: #b3b3b3;
+    /* letter-spacing: 2px; */
+    line-height: 22px;
+}
+.texts-content{
+    visibility: visible;
+}
+/* output form web */
+.text-contain{
+    visibility: hidden;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #043566;
+    border-radius: 4px;
+}
+
+.temperature{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: self-start;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.temp{
+    margin: 0;
+    font-size: 72px;
+}
+.sup{
+    color: #fff;
+}
+
+#loc-time{
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.card h2{
+    font-weight: bolder;
+}
+
+.cityCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.city-name{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 14px;
+}
+.countryName{
+    background: #ec7805;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
